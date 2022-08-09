@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test {
     @RequestMapping("/test")
     public String getTest(){
-        return "getTest";
+        return "getTest" + new Date();
     }
 }

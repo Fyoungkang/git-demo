@@ -9,6 +9,6 @@ import java.util.Date;
 public class Test {
     @RequestMapping("/test")
     public String getTest(){
-        return "getTest11111" + new Date() + "15";
+        return "getTest11111" + new Date() + "15" + "15";
     }
 }
